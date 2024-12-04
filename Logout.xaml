@@ -1,0 +1,124 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Logout" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Logout_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Logout" sap:VirtualizedContainerService.HintSize="645.9999999999999,1187.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: CovMo" sap:VirtualizedContainerService.HintSize="450,1005.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="d152837d-1c01-4c10-8d00-0a2618139e4d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,754" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:04:00" sap:VirtualizedContainerService.HintSize="382,124" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ZWHtun'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d152837d-1c01-4c10-8d00-0a2618139e4d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvTextArgument="ZWHtun" CvType="Text" DesignTimeRectangle="1413, 243, 96, 24" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'ZWHtun'" FullSelectorArgument="&lt;webctrl tableCol='72' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='x-btn-text ' aaname='ZWHtun' check:innerText='ZWHtun' /&gt;" Guid="41e59358-2092-4e83-880d-dbb8a55d5889" ImageBase64="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" InformativeScreenshot="102e0aa7138b5843fef2b94f4541cb51.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d152837d-1c01-4c10-8d00-0a2618139e4d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1414, 385, 200, 33" DesignTimeScaleFactor="1.5" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' type='' class=' x-menu-item x-unselectable x-component' check:innerText='Logout' /&gt;" Guid="453e3d0d-4014-4690-9884-5e61fb0d7553" ImageBase64="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" InformativeScreenshot="21c582b04ef63ac54900d308f29aeca4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Yes'" sap:VirtualizedContainerService.HintSize="382,184.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d152837d-1c01-4c10-8d00-0a2618139e4d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvElementArea="854, 674, 114, 34" CvTextArea="896, 683, 28, 16" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="859, 679, 104, 24" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Yes'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tableCol='1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='x-btn-text ' aaname='Yes' check:innerText='Yes' /&gt;" Guid="e9aacd6d-78cf-4065-a42b-1010672e6052" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGwAAAAcCAYAAACERFoMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKCSURBVGhD7ZpJrtpAEIZ9Jw7xBBcACc4AK2DNGk6AOABbLoAEewYxLpgkpoTxMVhhEKKSv6J2bKsfUXbdpBcfrq4uGsRHtc17tnq9Hq3Xa5rP5waFgSO4spbLJT0eD3o+nwaFgSO4shBcLhe6Xq8GhYEjuLLu9zvZtk3rzZYOhwPH4Hw+OzHym82Ovm2OtD3YdLR/0Of5Dxgjv9ycaL76pO/bE4/9IL9Y7c1r/XrOv74W1oArFuZe2KAmcOQRZlAfI0wzjDDNcISdTidpgUEd4MgjTFWq1SoFAgFKp9P841FWk8vluAa1svl3QQthoFgsshAc/XNCqGzu3dBGGEAXhUIharfbTg4dh8571X3vhFbCZrMZxWIxjxx0lV+i6DiBX6aQ7K7Bl0HMq4xWwoB7+4MkyHJvhYgxL85l/g70j1Ejvgg6bKmOsOPxKC1QEXGBAWQfvL9b3GJ1kuMHjljY7XbjgS5Mp1P+0CGh1Wo5+UqlwhJxdNevVitKpVKUzWZ5jCPqsAbWcteqDlxpJ0wIAIhFXgj7CiFMVquLPBaGP93v93va7XZasFgsKJlMMohFvlwuUzAYpEaj4an/G6jH86LRKI3HY2mNCsARXFnYH/FGdaHf71MikWAQi3yz2aRIJEKFQsFT/1XeDeY+Pj74YkU2rwpwZaHVBoOBNnQ6HYrH4wxi91w+n+ctrlQqOblMJkPhcJhqtRqDGDkx/2o91YArFjYcDrWh2+06HYbYPw9Z7vOTv65er3PHvapRFS2F/c+wMOyLGIxGI4PCwBGfw/AgKzCoh0eY7KrEoA4eYUhMJhODwsARC8N/M2UFBvWAKwu3UOGeueV6b1CY3/c72vQTyyqg1bLzWn0AAAAASUVORK5CYII=" InformativeScreenshot="e43d63c161ff4085dc114c454247d573.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Confirm" CvType="Text" DesignTimeRectangle="755, 573, 72, 22" ElementType="Text" FriendlyName="'Confirm'" FullSelectorArgument="&lt;webctrl aria-role='heading' class='x-window-header-text' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='heading' class='x-window-header-text' tag='SPAN' type='' aaname='Confirm' check:innerText='Confirm' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAaCAYAAAAdQLrBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMqSURBVFhH7Zf7S1RBFMf7J4IgKAoqIoroh4jop6Cih2XFRghJWBFJlJb0ixRouRhpa26smW8yW8vW92sje7jmo1U011yRMnrZf3Ha74EZZ2f3kveWGsv94cvdPXN25sznnDlzd1lw6hexwrO25iEbmEnZwEzKBmZSNjCTsoGZlA3MpP5bYO8nZ+lxV4gOXKqjlXvv0vLdd/hZ0/Ehrv9iKS4w/9AMXXX5afupcg4U2uwooZRsH1W2jNLAxI8o/4WQ1x+iDUfvy/WFLjjb5WfHtQYKjH2N+/uFUhQwZPVh4witT3ZHBakrr7I3ZqJ/rawiv1wvp+wtDX38yXasLexLDkzN6oo9hXQ+r438g595DM/LBV1sXwxg6fkdHMfG4x5q6JmM67MUksDehb7zkRPZS73RxDbVGRXorh+i2zV90tYSmKbU642yKtccukfHsp4yfPjDB1WAasD4JoeHnnSHKNvTwzCQgMOZXmp+M8W+L4MztCutSsahChDREtTv8eavfzFBzuoAbT1Zyvb2vmk5J55IwLlbrRwrhFjQZtCKzt5s5V6J2PKr+2LajwTWFAl4y4kSnnTVfte8mmtZ0wgvKDagCiCcVQGGpm4I9rVJxTH++9JrqSf45a+BIfZtKaXSRwcGGKsPFslxCDGdyW1lwLq95Plw1J4lMDWQHanl1DXwKcpRV3dkfOfpCvYHtAe+Ye4zXv+EXBjZ9r0KR23ISNhobee4nF8cSQixCfufgOnSgZmVWEMoLjBMjkyrjro8z4LSH0dZHF9U1MX8TjmGfqdXgKtugEsdayRleKWvCsYqsHVH3FTsHaT+8bl2olYtkljdPsbJRXtBFcGO8cbXYbbnVRhfLJYrTL2t9CzoY+qGRNUJXyMwVoHp80MqMLUY4Ad/2FUwOCUAr9shyz0skYEZ2SEJrHf0GyVfmTseRrckehVuSatHMmGA4QuCEbceznZaTjM3d4zhPSyzsJtvGUDQmz5uk8F5NP2EAobqKHjUb/iqIARg8LfyWpFQwITaItdwRqSa9P+SeNnD1S/+pkBWXlwTDpgtY9nATMoGZlI2MJOygZnSLP0G6Z25P82cCUIAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1162" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHVSURBVDhPlZJLKERRGMfHxpJYWEwUTZPHzW2c6TbjDlYWstBdy5KSYoGNhVEYNhLqeua9MF4jC4xnGm92nknySrK3/zvnXGfGPIR//et2z/1+3/f9zzWVNpjAbNKI4f9KAKJAPzlSpDRUTDTDlx9FOH13Yf9Jxe69Ezt3TmzeOOA7tvPzr9KQBGBwKReAjsCDCn1eQvd0Nvq8EibXZSweEyyd2DGxJseA0NEEhHXrmsxGRY0ZcmE84uJMaNWtvLu+IGHAJ8VYRdOwcpXHAU16Kqoa0+hHGrdFYbmwZ4Ky8hTk5SdETEAPh5dzcfTqQmV7AoeI4pAjgmQOin5w8lbAw2L7iVVE8cGLGuVad/p3AKEAF7ZvHRhbldHoyQhCprdsWD4zdmf2Xypoo3lErECw96hi49qBCb8Md6+VHQYhruIkdI5k8c6jKzIaaIMowGyAYO1CgXfXxvNQChPDIP2+HHq1Tn7N5dXmb8VCFMLuePHIjrl9gvkDCjxXcPisoq4nmUPcY2b0zkgoKkk28gkTBdQ2p/MfZmpDhjdgg59OtH3rpHs70DFuCU4jwo0JYW7qssAzlAnPYCZa+qyob8swxqYFAhIGCxN9wQL6zT8D/ipWyK3hE4IVhyVUea9NAAAAAElFTkSuQmCC" InformativeScreenshot="7b0aab03cde110dc1baba8000ca4764e.jpg" Selector="&lt;html app='chrome.exe' title='CovMo' /&gt;" Title="CovMo" Url="http://172.16.79.48:8911/CovMo/CovMo.jsp" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,159.33333333333334" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="chrome" />
+  </Sequence>
+</Activity>

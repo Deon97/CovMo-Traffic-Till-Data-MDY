@@ -1,0 +1,145 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test2" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="test2_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test2" sap:VirtualizedContainerService.HintSize="635.9999999999999,1585.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: CovMo" sap:VirtualizedContainerService.HintSize="450,1562.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1320.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Click 'New Tab'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="428, 11, 42, 62" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'New Tab'" FullSelectorArgument="&lt;ctrl name='CovMo - Google Chrome' role='pane' /&gt;&lt;ctrl name='New Tab' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='CovMo - Google Chrome' role='pane' /&gt;&lt;ctrl name='New Tab' role='push button' automationid='' check:text='New Tab' /&gt;" Guid="3e500328-c80d-4dbb-a097-eb2758380089" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAABCCAYAAAAoj+QWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGgSURBVGhD7ZpLS8NAEID33+XH6U1PerGINw+C2IPowRceCyliPXhpUVERET2I1IwkaFmb2Wc2k90wCx+B7mTzMTu7XdoIbtQNEm3i8a2AFBHj2TekCItTw+LUsDg1QcRzxdXU1wQuFV/yKf65CTdxz4dY4Th2v0sl1IKyxeZ50WbcJN/vUukKXdY549TUxKl3EBswp35kPFS2z/MnWF0fVFyMn9EYV5bdWhEfnl5DlmUVw7MJGuOKVjwUbYgvw+IyLK6hkfjJ6B72jkY1Nrb3F+KbOwdoTHkvNqYOeYE2Ei+3uz9BV8p7sTFtSV/cZw+3KZWVtS00ptNSUSEvzsHuMRrTFBaXYXEN/8TbOGSFEic5ZMnH2sPLWzTGFRJxCnom3uZvhK4oXKLPuGrDiD/jCuLNuCF50YqbvlOir3EV1uK+f3k4Y/kcp4yHOhKEoPtS8ZzJRuL5bO41CyFmLkjG5fqnKqfuS8UTFqeGxakRV3d4R+yIrznA9KVAO2Nm8abn+2cBNw94UIzUXlF9/SiqGYi9hNJ9t/b3mlxjcdoG8AMSI0zWf8vESQAAAABJRU5ErkJggg==" InformativeScreenshot="e1466c795f108bcf8589f010816da885.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='CovMo - Google Chrome' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGoToUrl DelayBefore="2" DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="382,116.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="http://172.16.79.48:8911/CovMo/CovMo.jsp" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'Group'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvElementArea="152, 364, 264, 36" CvTextArea="158, 374, 45, 16" CvTextArgument="RSRP" CvType="InputBox" DesignTimeRectangle="154, 366, 235, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'RSRP'" FullSelectorArgument="&lt;webctrl aaname='Group:' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Group:' tag='INPUT' type='text' class=' x-form-field x-form-text x-triggerfield-noedit x-form-focus' /&gt;" Guid="f5159611-aaf1-4d84-a75a-02d1e8ef1994" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAO8AAAAkCAYAAABhX23OAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQDSURBVHhe7Zq/bxtlHIf9Z9yIJZaIDvGEb2w3W2VIlAxYRCKNkJp4TFniFolghgaLoXRzxFByGaKEoVIzlMJCcYeqrhA/29ILEBKjhhJB6hyJm3x43/fec332nQOphzv380iPFL/+3pvp8Xu+JLH2+y4opfGT8VIaUxkvpTG1Ge87K/copTHSF6+9vkkpjbCy08++2VL64q1t/UEpjbCy0929Q6Uv3r92diilEVZ2+vBPKH3x/l2vU0ojrOz0u0dQ+uJ9srtLKY2wofHWHYdSGmFD43X29iilETY03n/29ymlETY03r1Gg1IaYUPjbTw96PTnBQwlEkj4TCL95ntY+vpx4DXrNz7C5OkBGHreeOUkxs+VcfVHb34DV0ba90zgpVfPYHb5W2z59guaFb9/ZAqXbmy0zFHa/4bG+/TgoNNf3HgH35jB3MUPlDNnMxgwZEQmZr+qt8zXcfP9kypa40QGU+fl/AymvJBHFvCbmtvAJzLIwdcxo/ecOz+FzAlDxZl+9yaeNPcMmD13BumX5e9vn6W0vw2N9+DwsNNf3XiHrE3/uq1P5EwZP3lr98vIiDVjchmPW2elj+6gfHEZG+r1JhZGxbWjC/q150N3PZFF+b63FjK7L2bHZOyts5T2t6HxBrJuYVgEObxY0wseNVgqtCIqegW3iuo0nPh0Wy+Eoa8dtcRPfmqLw2qP4i290GXWuT6tZqevO3qFkP6mR/HasIZEVIMlVPUK7paQErOpCxV0zyk8SPuKjDeF0l290GV2+2pexVv4Ui8Q0uf0JF5HnLKmWDc/bKYrqGFF3comkMzkUfh4BZUfanAa+u0mIUHuVFBMi/V0ywfCUbNGHteOOugJ6ROOFW9qrIDSXEk5PW4iKdaMsXnY7Udso4bPL+WR1Q+UXJPITs6j2oxMBzmYQ0HvWXp7Aqa8xshh/kHrpp2zhcmsfmCWxMSSrecI6X+OFe+zEF2z4sQ96sBztm1UVy2U3jrlPm1OF1FVXeog2/ZMvCZO3I5NA2aNAfFhcBnXHvDIJS8Wx4q3edvcvF3NwVpzl/4L1bmUCM9A8bZ81X4r7KAya6r3c4vtJ2n7LCEvLs8Xr2TNQk7etoqTtLKj147AWXUfLrlPkYOCtGGp78ummAm4bWa8hPQgXoH3wMoYs0R2LrWlAoqrdsDttBfmBFa25OuQIANPdcZLiEdP4pXYizn1Xdacdf805P2N1v1Oqh9wXcgjq/5zqvWWuEuQHac64yXEo2fxdnxXbWzj+9V5TI+f0k+DpUmYo3lc/qL1+u5B+k91xkuIx/+LlxASGRgvITGF8RISUxgvITGF8RISUxgvITGF8RISUxgvITElNF5KafTtiJdSGg/diO/hX5arfam+uL99AAAAAElFTkSuQmCC" InformativeScreenshot="3d21f0abd62515021dc3532c5ebfd7c8.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Group:" CvType="Text" DesignTimeRectangle="42, 366, 110, 31" ElementType="Text" FriendlyName="'Group'" FullSelectorArgument="&lt;webctrl aaname='Group:' class='x-form-item-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Group:' class='x-form-item-label' tag='LABEL' type='' check:innerText='Group:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAjCAYAAABID14vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMTSURBVGhD7ZixSyNBFIfzTySpAhEsUgiCFoI20UJtQirZFEdIE4QgCAoX2CLBatMlVbYQkkrlikUEFeSEHDaBCEquEC0kHAhaWdr+bmZ2E3c22WiwiZNXfIR9+/ImvG9nMjuBzssbiO8PiVQEEqkIJFIRSKQikEhFIJGKQCIVgUQqAolUBBKpCCRSEUikIgwQ+YyrwzLSiQVEAgEEOFMLWExto3R4g/aTN58YB2SRj03oq2EhLxhbQ3rHgF4wkE3FMR1ypP5sSAWI8cAlsgNzg0uMQjPvpCSbV7QsA+sFEjmO9ETeW3kE2Yyb05u4dyX4clYUM3T37E0ITsbYQ5Coo+Xcb19UkV6NiZr84ZhLGTj4667RwO7AGe6Nv1+3/9SRdWryFSNr3nh+q5MbKMKS4urTE2nt8AYkUbntTxqII3JuKc4aG8Y0+1zMHAmRrVpG/L9GEkVUDs9xUCtDW2KiQxoq190aI4oMhdk4USxn8my537YfHDZucr/T/91JFllJ8GYVceq6ORRHZCRVxe8HV/zfObbY/2kwc4y2O/+xga0ZNkbqyImPKDJRlsfp1psxXL+ZREKf4s16XxoFt3Wsi8a46DbYtbT28jkneRHfOvHEGad7s+zeJmpCyIgi+/K69UZYRRRm+Ix8aKDEdq1856oXNrHsbqiPyJaZtJvbW0K992ahX/Lrr4u064WxeyHHJ5GeyIMca9bQp9vT0LERGUepKccnkZ7Ij3etnxPZXVqzv17lOMNeCjWYYvf6dZHyUj3Z9ER2Xu5QWmEN832P/KTI7mZno44rd7xvs9OEzq9XqlJe+8KQl3A/kU49eVPl5E7yZkdwfYz0PG+EfLKj5zJYnI/acTZjRa6fSEZrXxOze/jrB59RC6JGJLHNxskjvcLGmIraR4NekaE4tEIdNcu/Hol089SBZRrSWWswxpqYq8K8dL2zDRHJaZ+UPzgQ4DzDKmj28V8ohuVcnb1ieGegc/2jiL3MmnNU6FePRI4xXrHEIEikIpBIRSCRivANRBKfgUQqAolUBBKpCCRSCd7wH+bSJmJv3DemAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Traffic'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvTextArgument="Traffic" CvType="Text" DesignTimeRectangle="155, 471, 232, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Traffic'" FullSelectorArgument="&lt;webctrl aaname='Traffic' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Traffic' tag='DIV' type='' class='x-combo-list-item  x-view-highlightrow x-combo-selected' check:innerText='Traffic' /&gt;" Guid="7396b8e7-28d3-4c3d-adb9-583412e56158" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOwAAAAiCAYAAABcMTXQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANjSURBVHhe7ZoxSFtBHMYz+SZ1aXDS0hCEIIgIEihYcEjpEHhDAoIEIUhAqJvg5hJckk5mSpaaUkibJUghIBKKbQpCpUhcape2k7SLEChdv96996IvySsafcF38fvDj+P+7393WT6+u8v59j98Qf7gDxgMhnej2WwaULAMhgJBwTIYCkWXYF/v/zb48esvW7ZsPdY6ClZ+JIR4C0fBOhUSQrwBHZYQRaDDEqIYdFhCFIEOS4hi0GEJUQSPOewxcvo0hnw++CSzOdRFvlFZR9hv5XwalipOYwm5H1zhsLuItgR0BYH0V9u4XjlHcXFUzDOGmVQOhXwWUV0I9iiLkJw/GMdmvoyt1BySJes3BbOGoJ3nI2TwuIbDHuLFYgIxG+FxKVANoWft+Y3S946xvbCLmBDh0PJeW76enhZrzWHrxF67h6R/DA8WTAe21xMy6FzhsN0UdSnYSWweOX+/EcJJAw4uba4VR9GWI+S+cqMzrLNgrW2qvovTozJiU9pFTTUzj4Bf9uU4ySgCj9dR/GaNLcVt31o8wtOHnTmBmN++1uX64qxbzSE6JbfVZu3Q+DximQM0bDWEqI5LDmuJaERsVWWridY/jy1RI8+moYUEVjNlFHbKyKUTmBmRtSuoyLEnhyhk4sa4B+LcKmsKO+/w8m0ZyVm5lji3GjlBTW67uwXbEKIfljm/qJXrZJ5bF1V0ZzI4uO+wQlyr1TNb/j/sSFfVsFS1+j1tiTsFu4clTfTH11FtqzvDm+U0BUsGCncdtmObanKOz7UCVnW5NR4zndAiWrJqbiPYUsKYK7x9m0svQrxPX86w9lrpckXdOldqEwjrCcTWxLY3NeeaYOvpSVFjc2tCBpj+Omx1xXgIMayX2y9/rIsmCpaQ69N3hzXFNImNur1W4KJgW3NxS0zuA3112NN8xBDTk237RdQZKikpZJcE+/MVIrIfTKPWVifWWct2jCVEXfp/hm2JSb6MWpAvoiIIyRtdI+eSYAX1jHkmvvhbRz5tDDqNJURt+uqwktN6DpHW431tApH0ARrG3zruCVbi9HAiuX3MhxNkYLiRwxJC7o6eHZYQcjfQYQlRDDosIYpAhyVEMeiwhChCm8PWPtJhCfE6F4J9/+nSYVsuy5YtW2+1XYJlMBjeDVOwTfwDusgbS/MDowYAAAAASUVORK5CYII=" InformativeScreenshot="b058473dce6198399444fb1e67122892.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Analysis'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvElementArea="151, 403, 263, 35" CvTextArea="158, 411, 127, 18" CvTextArgument="Call Distribution" CvType="InputBox" DesignTimeRectangle="154, 404, 235, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'Call Distribution'" FullSelectorArgument="&lt;webctrl aaname='Analysis:' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Analysis:' tag='INPUT' type='text' class=' x-form-field x-form-text x-triggerfield-noedit ' /&gt;" Guid="9aa6fa42-a1ce-425d-9d1a-7185c9417e0a" ImageBase64="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" InformativeScreenshot="607ba5ff17f3bf9de27022dc3d3a693a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="Analysis:" CvType="Text" DesignTimeRectangle="42, 404, 110, 31" ElementType="Text" FriendlyName="'Analysis'" FullSelectorArgument="&lt;webctrl aaname='Analysis:' class='x-form-item-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Analysis:' class='x-form-item-label' tag='LABEL' type='' check:innerText='Analysis:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAjCAYAAABID14vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASuSURBVGhD7Zi9axtJGMb3n5BUGSxIYXAgYBUGpYh8RexGiBSHXBxCcBiDEHEhiEGFhIpDLgwSHGiLwAoCskghxIFsMAk4mAOBDDZJIeQiCEPAqVK6fe6dmd3V7mgd68C+k4cpHpB2PnZmfjPP+84a4+830Hr80iAVkQapiDRIRaRBKiINUhFpkIpIg1REGqQi0iAVkQapiDRIRTQHIE9QMAwYb04CyrRmVTDIwzJCbHGNLMxhQPm96iFAjlFPsvGX0QksV08BIH+g9TpCi8AWwkDaupbK71sPA9LaTiD+ooZeYLl6mgZ5dYR82MByqYnKC1rgzTY+y3XuVdpa70NTIEedXbLVZyh+vMHpfoJOZQr1C3+dgZkSz8/GaJWyWImy07uIlU06AV89dfttZJIJPKGNIU441UluY+/Ye8q9IK9hZel3eBetK08/Tj3qJ/T6CCP2/8sRipurWOD9GliIJZDONdHj7WxrTTYxcNpfnqOeW3fHElpKYCNbRcudm2PH0/N9DJJA2rb6tCos6WMVyzTpDXPsqeOAjGAhGqEFSWOrVEX+twSPq6Fsd3KCD6sEdwfFehutzhFaB02++IaxyjeK6M9/Ikfvd3jf+c4Pu9zpi8XtCAqH9PuijRSD+jyLikX9Ut9mfReZlxTTOQQJ5FUfhRj9j6ZQMLu8vmXWsEVjKbL++DtUAmnbasi1uT6KTz0LYssBmdo/99lur/SMnqdhfpk8m9YJ8gRuudJ3//us1R6DkbNPHpd/gw3epsWCnznlsiSQxyJ5y/8l1/NKIZDCVu1dbz/rVRgc/+Rca5Um7C6w9/nwHBY7LWSx8dgilbPF8oCTQZI6b1iytTOxVydu2/DFeyLIvPU7xUTBINeo/cPG+/9PHpC063M0+bCUsgfY620gmf15n4/o/wqDFF7CWnYXxVIDZqeG9B0gnXdm3olYKux2HXt9u/wrtWFWydpFVxEn+66YJxi4cVUC+X2I+q92Jk5jiVOczte7+PDgV6v/ThOQtOu32ERv0y8NnNp1ZwNp23KMNsalt54MLgCk05ZnzHYCJNn7+NsYPauBfDaF+JINKboNi8ORQTJd47RDmXguO3GGcAIVN1Y/brkgxa4n+6FMrkjJi1dbL9lCTU7ETCAvmtig/jb+HPrrzATSyZgpefm7iwyV33Wf/fxuh9tnitttEEi/Rp9qWKP6oaITqx+3XJDCVoPSfhLPGAlyXUCZCaRzwn/vepIWWnBaQAb4LpDjfoMv9EqMZbmeeEkaHDRgyQnVmdg4gSCP29j7JG8EkXRNQNptgub1COSCZLvevaNNybY6215ns1bnC1EET17RFYSd7FdLCEUXxd3vLpDuwk6PS7x/kdyjRjGXrh8Wxd3n9K7wLdbKx8XGUUb9QFyDCklmr95rkCIg2US92aoscbUQ9jobSNK3IUy6hHNwLOGhC/uHy9mslUlkp+LjhK/scgjrj22sObGRJ1M1dNzkRQJJ8bRjlpF2s2b28aJMtu29qyoCcv4kfZzQ+qnmF+Swza8p8X05WdIK0tyCPK2vk8157o5aP9WcgvTeI4PKtWTNcYzU+jfSIBWRBqmINEhFpEEqoRv8A2PFe5Kfnov1AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Data Volume'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvTextArgument="Data Volume" CvType="Text" DesignTimeRectangle="155, 479, 232, 30" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Data Volume'" FullSelectorArgument="&lt;webctrl aaname='Data Volume' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Data Volume' tag='DIV' type='' class='x-combo-list-item x-view-highlightrow x-combo-selected' check:innerText='Data Volume' /&gt;" Guid="05525340-c990-4eb7-88c1-22d9728cb3cb" ImageBase64="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" InformativeScreenshot="d608569548d0e996eef33700bac72908.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tile'" sap:VirtualizedContainerService.HintSize="382,184.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a34152b-f3f5-4270-bdab-c098a2750e63" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="http://172.16.79.48:8911/CovMo/CovMo.jsp" CvElementArea="503, 775, 59, 35" CvTextArea="518, 783, 30, 16" CvTextArgument="Tile" CvType="Button" DesignTimeRectangle="520, 775, 41, 32" DesignTimeScaleFactor="1.5" FriendlyName="'Tile'" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;a&amp;gt;em' idx='2' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' class='x-tab-left' tag='EM' aaname='' check:innerText='Tile' /&gt;" Guid="e43f3f9e-71ad-4896-bcae-11dff8d63330" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC0AAAAkCAYAAAAdFbNSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALjSURBVFhH1ZfLTttAFIb9an2MvgLbAhI8A6AWkLrosrcFVJVQCbRAaCgUqRASm9zIFRIcQggkTmgTQty/Z8ZDnBhzUUOkyeKTfea3x59HI3tGmVzIYdBQ0iUTg8ZgSrsNvyy8Xtaxm6giof/uQvkZMyArm1EDS/5zbMfKiOuXbZRG04SslKpNzG8X4fGXEMxUbenwcR2yEtPr0C+u8CNSwZuVPA6OLzmKP/MHsqIe1VEwWljbr/A53pbeO6xDVoIknSheYzHgkA5QKCtatoHMWQtLQUs6lqtxFJUCWdnPNZC9aOGbaklHszWOolEgK2G9Ab1sYkVzSLO3kZWIfkXSrbZ0hIQZSpiC3gjixdBbPJsIumS9Ec1fIU/Sq0I6fFTjKJF8E4yPE/Rg9vAHGF5RMczOx77Dy+8V9YTK+3lKYidNFCou0lEK3Vh/N0eSc3ipOTNber2zJunu63onXrjm32lbuspRDihww/fekn4Vcs9tVIww6UnVJeuNxOk1ilWz/XMJHVY5SpwCNzaE9HTYmWUxPcZG2ocNXtvSt65h7YKRtZvs8STpx3JW+wtvyOiWTtHH243ND5b0TMSZZTEzTiLjPmzyWsMoE5vSRO6sCa+Hi496Rf0IksUW0nTslN4nYcadm4AtIT0bdWY5zArpLV7bkiyfn6LzIQ/mu+4R7XRPZ9t9MPFMqYVizZ4eGq30GE8sLTLxAp1Y/Xlutd9H5tzsmtN9khbnd9KbtJo2OP2Rdhnp/4FJn5L0an+l7blrZb2RIbi0+E73TTod9eE5q53irJ3a7H4ehksbtnQwZXCeXrrzGtbexq2v+2HShQ7pQKrCuVNaBpj0CUnfrPIGRpqtp7+KTcBessKRWpqRvTCxLLZbfhJmSC/NRtsjNrYDIZ06M2kNYuLLnpBOkDQhvXSsYGLBb0nvJsocqaWTJB3Km/i8M0DSCZoawWMTn35Z0jvxMkd66UCOlgZOaVYMFjn8A0dso0NWImT3AAAAAElFTkSuQmCC" InformativeScreenshot="82ad08bce4a10668e1cc1b615493669d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CovMo' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1162" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHVSURBVDhPlZJLKERRGMfHxpJYWEwUTZPHzW2c6TbjDlYWstBdy5KSYoGNhVEYNhLqeua9MF4jC4xnGm92nknySrK3/zvnXGfGPIR//et2z/1+3/f9zzWVNpjAbNKI4f9KAKJAPzlSpDRUTDTDlx9FOH13Yf9Jxe69Ezt3TmzeOOA7tvPzr9KQBGBwKReAjsCDCn1eQvd0Nvq8EibXZSweEyyd2DGxJseA0NEEhHXrmsxGRY0ZcmE84uJMaNWtvLu+IGHAJ8VYRdOwcpXHAU16Kqoa0+hHGrdFYbmwZ4Ky8hTk5SdETEAPh5dzcfTqQmV7AoeI4pAjgmQOin5w8lbAw2L7iVVE8cGLGuVad/p3AKEAF7ZvHRhbldHoyQhCprdsWD4zdmf2Xypoo3lErECw96hi49qBCb8Md6+VHQYhruIkdI5k8c6jKzIaaIMowGyAYO1CgXfXxvNQChPDIP2+HHq1Tn7N5dXmb8VCFMLuePHIjrl9gvkDCjxXcPisoq4nmUPcY2b0zkgoKkk28gkTBdQ2p/MfZmpDhjdgg59OtH3rpHs70DFuCU4jwo0JYW7qssAzlAnPYCZa+qyob8swxqYFAhIGCxN9wQL6zT8D/ipWyK3hE4IVhyVUea9NAAAAAElFTkSuQmCC" InformativeScreenshot="ea31dd353df36b0aabaf448ae58cffdf.jpg" Selector="&lt;html app='chrome.exe' title='CovMo' /&gt;" Title="CovMo" Url="http://172.16.79.48:8911/CovMo/CovMo.jsp" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
